@@ -12,5 +12,5 @@
 */
 
 Route::get('/', function () {
-    return view('theme.pages.homepage');
+    return view('auditwise_theme.pages.homepage');
 });
