@@ -21,13 +21,13 @@
                     <div class="col-md-6">
                     </div>
                     <div class="col-md-2">
-                        <a href=""><img src="images/icons/facebook_footer.svg"></a>
+                        <a href=""><img class="home_social_bottom" src="images/icons/facebook_footer.svg"></a>
                     </div>
                     <div class="col-md-2">
-                        <a href=""><img src="images/icons/twitter_footer.svg"></a>
+                        <a href=""><img class="home_social_bottom" src="images/icons/twitter_footer.svg"></a>
                     </div>
                     <div class="col-md-2">
-                        <a href=""><img src="images/icons/g+_footer.svg"></a>
+                        <a href=""><img class="home_social_bottom" src="images/icons/g+_footer.svg"></a>
                     </div>
                 </div>
                  <div class="row">

@@ -2,6 +2,56 @@ html {
   font-size: 16px;
   font-family: Arial; }
 
+/* main menu */
+#toggle-right {
+  display: none; }
+  #toggle-right:checked ~ .main_menu {
+    right: 0%; }
+
+.main_menu {
+  position: fixed;
+  top: 0;
+  right: -25%;
+  width: 25%;
+  height: 100%;
+  background: #525252;
+  z-index: 10;
+  padding: 2em 0 0 0;
+  transition: all 0.15s ease-out 0s; }
+  .main_menu .close_drawer {
+    padding-right: 2em;
+    cursor: pointer;
+    width: 100%;
+    text-align: right;
+    margin-bottom: 4em; }
+    .main_menu .close_drawer img {
+      width: 20px;
+      height: 20px; }
+  .main_menu nav ul {
+    padding: 0;
+    width: 100%; }
+    .main_menu nav ul a {
+      color: white; }
+      .main_menu nav ul a .list_item {
+        list-style-type: none;
+        padding: 1em 0 1em 0;
+        text-align: center;
+        transition: background 0.15s ease-out; }
+      .main_menu nav ul a:hover {
+        text-decoration: none; }
+      .main_menu nav ul a:hover > li {
+        background: #d83734; }
+  .main_menu #main_menu_social {
+    margin-top: 4em;
+    padding: 0 1em 0 1em; }
+    .main_menu #main_menu_social > .row > div {
+      text-align: center; }
+      .main_menu #main_menu_social > .row > div > img {
+        width: 40px;
+        height: 40px; }
+
+/* main menu end*/
+/* general css */
 .homepage_section {
   margin-bottom: 2.5em; }
 
@@ -11,20 +61,88 @@ html {
 .right {
   text-align: right; }
 
+/* general css end*/
+/* header */
+.lang {
+  color: #a19181; }
+
+.lang_active {
+  color: #d83734; }
+
+#header_nav_container {
+  margin-bottom: 1em; }
+  #header_nav_container #language {
+    text-align: right; }
+  #header_nav_container #header_bar {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: center;
+    justify-content: center; }
+    #header_nav_container #header_bar #header_logo {
+      text-align: center; }
+      #header_nav_container #header_bar #header_logo img {
+        height: 92px; }
+    #header_nav_container #header_bar #header_social img {
+      height: 20px; }
+    #header_nav_container #header_bar #header_social a:not(:last-child) {
+      margin-right: 2em; }
+    #header_nav_container #header_bar #header_search {
+      text-align: right; }
+      #header_nav_container #header_bar #header_search img {
+        height: 20px; }
+    #header_nav_container #header_bar #header_nav {
+      text-align: right; }
+      #header_nav_container #header_bar #header_nav #drawer_trigger {
+        cursor: pointer; }
+        #header_nav_container #header_bar #header_nav #drawer_trigger span {
+          color: #a19181; }
+        #header_nav_container #header_bar #header_nav #drawer_trigger img {
+          height: 20px;
+          margin-left: 0.5em; }
+
+/* header end*/
+/* home banner */
 #homepage_main_banner_container {
   position: relative; }
   #homepage_main_banner_container img {
     width: 100%;
-    height: 400px; }
-  #homepage_main_banner_container span {
+    height: 700px; }
+  #homepage_main_banner_container .text_in_main_banner {
     position: absolute;
     top: 200px;
     width: 30%;
     left: 50px;
     color: black; }
+  #homepage_main_banner_container #who_we_are_container {
+    position: absolute;
+    bottom: -80px;
+    left: 12em;
+    right: 12em;
+    background: #aaa; }
+    #homepage_main_banner_container #who_we_are_container .container_2 {
+      position: relative; }
+      #homepage_main_banner_container #who_we_are_container .container_2 > .row {
+        margin: 0;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-align: center;
+        align-items: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        background: #d83734; }
+        #homepage_main_banner_container #who_we_are_container .container_2 > .row #who_we_are_home_title {
+          text-align: center; }
+        #homepage_main_banner_container #who_we_are_container .container_2 > .row #who_we_are_home_text {
+          background: #a19181;
+          padding: 2.5em; }
 
+/* home banner end*/
+/* services section home*/
 #services_container {
-  text-align: center; }
+  text-align: center;
+  margin-top: 6em; }
   #services_container p {
     padding: 0 3em 0 3em; }
   #services_container .row {
@@ -41,6 +159,8 @@ html {
         text-align: center;
         margin-top: 3em; }
 
+/* services section home end*/
+/* news home section*/
 #news_container #publications_container div {
   padding: 0.5em 0 0.5em 0;
   border-bottom: 1px solid black; }
@@ -56,6 +176,8 @@ html {
     #news_container > .row #news_more a {
       color: #a19181; }
 
+/* news home section end */
+/* home clients section */
 #selected_clients_container {
   background: white;
   text-align: center;
@@ -70,6 +192,8 @@ html {
       background: #aaa;
       height: 100px; }
 
+/* home clients section end*/
+/* newsletter */
 #newsletter_container {
   background: grey; }
   #newsletter_container #newsletter {
@@ -89,6 +213,8 @@ html {
       border-color: #a19181;
       box-shadow: 0px 0px 5px #a19181; }
 
+/* newsletter end */
+/* footer */
 #footer_container {
   color: white;
   background: #d83734;
@@ -118,34 +244,6 @@ html {
   #footer_container > .container > .row:nth-child(2) #designed_developed_section {
     text-align: right; }
 
-#header_nav_container {
-  margin-bottom: 1em; }
-  #header_nav_container #language {
-    text-align: right; }
-  #header_nav_container #header_bar {
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-align: center;
-    align-items: center;
-    -ms-flex-pack: center;
-    justify-content: center; }
-    #header_nav_container #header_bar #header_logo {
-      text-align: center; }
-      #header_nav_container #header_bar #header_logo img {
-        height: 92px; }
-    #header_nav_container #header_bar #header_social img {
-      height: 20px; }
-    #header_nav_container #header_bar #header_social a:not(:last-child) {
-      margin-right: 2em; }
-    #header_nav_container #header_bar #header_search {
-      text-align: right; }
-      #header_nav_container #header_bar #header_search img {
-        height: 20px; }
-    #header_nav_container #header_bar #header_nav {
-      color: #a19181;
-      text-align: right; }
-      #header_nav_container #header_bar #header_nav img {
-        height: 20px;
-        margin-left: 0.5em; }
+/* footer end*/
 
 /*# sourceMappingURL=auditwise_main.css.map */
