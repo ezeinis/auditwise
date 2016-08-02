@@ -1,0 +1,25 @@
+$container-color:#665851;
+$menu-item-color:#80AF93;
+$secondary-title-color:#709980;
+
+#about_container{
+    margin-left:155px;
+    background:$container-color;
+    margin-bottom:2.5em;
+    padding:10em 4em 4em 12em;
+    h1{
+        margin-bottom:3em;
+        color:white
+    }
+    h5{
+        color:$secondary-title-color;
+    }
+    #about_text{
+        p{
+            color:white;
+        }
+        p:not(:first-child){
+            margin-top:2em;
+        }
+    }
+}
