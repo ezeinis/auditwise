@@ -153,7 +153,7 @@
         </div>
         <div class="row">
             <div id="go_to_news_page" class="col-xs-12">
-                <a href="">go to our news page</a>
+                <a href="/news">go to our news page</a>
             </div>
         </div>
     </div>

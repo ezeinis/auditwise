@@ -59,6 +59,10 @@ Route::get('/contact', function () {
     return view('auditwise_theme.pages.contact');
 });
 
+Route::get('/news', function () {
+    return view('auditwise_theme.pages.news');
+});
+
 Route::get('/news/{id}', function () {
     return view('auditwise_theme.pages.single_post');
 });

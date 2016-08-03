@@ -31,7 +31,7 @@
 </div>
 <div class="page_sidemenu page_sidemenu_sinlge_post">
     <ul>
-        <a href="/services/accounting">
+        <a href="/news">
             <li class="active">
                 <div class="sidemenu_inner_li_container">News
                     <img class="arrow_img" src="/images/icons/arrow.svg">
