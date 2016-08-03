@@ -205,9 +205,11 @@ html{
             }
         }
         #header_search{
+            position: relative;
             text-align:right;
             img{
                 height:20px;
+                cursor: pointer;
             }
         }
         #header_nav{
@@ -226,6 +228,26 @@ html{
                     height:20px;
                     margin-left:0.5em;
                 }
+            }
+        }
+        #search_input{
+            position: absolute;
+            top:-4px;
+            right:60px;
+            visibility: hidden;
+            border-radius:0;
+            width:200px;
+            @media screen and (max-width: 1060px) and (min-width:$break-sm){
+                width:130px;
+                right:45px;
+            }
+            @media screen and (max-width: 566px) and (min-width:483px){
+                top:30px;
+                right:0px;
+            }
+            @media screen and (max-width:483px){
+                top:30px;
+                right:-45px;
             }
         }
     }
@@ -631,7 +653,7 @@ html{
 #career_drawer{
     position:fixed;
     top:0;
-    right:-25%;
+    right:-35%;
     width:25%;
     height:100%;
     background:#A19181;

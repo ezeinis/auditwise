@@ -1,4 +1,5 @@
 var is_career_open=0;
+var is_search_open=0;
 
 $(document).ready(function(){
     $('input[type="checkbox"]').prop('checked', false);
@@ -32,5 +33,17 @@ $('.career_menu_link').on("click",function(){
         $('.career_menu_link').removeClass('active');
         $('#career_drawer').css('right', '-25%');
         is_career_open=0;
+    }
+});
+
+//open search on click
+$('#header_search>img').on("click",function(){
+    if(is_search_open==0){
+        $('#search_input').css('visibility','visible');
+        $('#search_input').focus();
+        is_search_open=1;
+    }else{
+        $('#search_input').css('visibility','hidden');
+        is_search_open=0;
     }
 });

@@ -151,9 +151,11 @@ html h1, html h2, html h3, html h4, html h5 {
     #header_nav_container #header_bar #header_social a:hover {
       text-decoration: none; }
     #header_nav_container #header_bar #header_search {
+      position: relative;
       text-align: right; }
       #header_nav_container #header_bar #header_search img {
-        height: 20px; }
+        height: 20px;
+        cursor: pointer; }
     #header_nav_container #header_bar #header_nav {
       text-align: right; }
       #header_nav_container #header_bar #header_nav #drawer_trigger {
@@ -168,6 +170,25 @@ html h1, html h2, html h3, html h4, html h5 {
         #header_nav_container #header_bar #header_nav #drawer_trigger img {
           height: 20px;
           margin-left: 0.5em; }
+    #header_nav_container #header_bar #search_input {
+      position: absolute;
+      top: -4px;
+      right: 60px;
+      visibility: hidden;
+      border-radius: 0;
+      width: 200px; }
+      @media screen and (max-width: 1060px) and (min-width: 768px) {
+        #header_nav_container #header_bar #search_input {
+          width: 130px;
+          right: 45px; } }
+      @media screen and (max-width: 566px) and (min-width: 483px) {
+        #header_nav_container #header_bar #search_input {
+          top: 30px;
+          right: 0px; } }
+      @media screen and (max-width: 483px) {
+        #header_nav_container #header_bar #search_input {
+          top: 30px;
+          right: -45px; } }
 
 /* header end*/
 /* home banner */
@@ -489,7 +510,7 @@ html h1, html h2, html h3, html h4, html h5 {
 #career_drawer {
   position: fixed;
   top: 0;
-  right: -25%;
+  right: -35%;
   width: 25%;
   height: 100%;
   background: #A19181;
