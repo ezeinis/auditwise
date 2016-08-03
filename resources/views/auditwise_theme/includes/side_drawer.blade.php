@@ -12,7 +12,7 @@
             <a href=""><li class="list_item">News / Publications</li></a>
             <li class="career_menu_link list_item">Career</li>
             <a href=""><li class="list_item">Links</li></a>
-            <a href=""><li class="list_item">Contact</li></a>
+            <a href="/contact"><li class="list_item <?php if(Route::getCurrentRoute()->getPath()=='contact')echo 'active'; ?>">Contact</li></a>
         </ul>
     </nav>
     <div id="main_menu_social">

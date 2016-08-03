@@ -54,3 +54,7 @@ Route::get('/services/tax', function () {
 Route::get('/services/business_advisors', function () {
     return view('auditwise_theme.pages.services.business_advisors');
 });
+
+Route::get('/contact', function () {
+    return view('auditwise_theme.pages.contact');
+});

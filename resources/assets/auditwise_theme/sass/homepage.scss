@@ -522,8 +522,13 @@ html{
         p{
             color:white;
             margin-bottom:4em;
-            @media screen and (max-width: 550px){
+            @media screen and (max-width: $break-md){
                 margin-bottom:1em;
+            }
+        }
+        h2{
+            @media screen and (max-width: $break-md){
+                margin-top:1em!important;
             }
         }
         input,button{
@@ -855,5 +860,92 @@ $sidemenu-color:#80AF93;
     }
 }
 
-
 /* people end */
+
+/* contact page start */
+#google_maps_container{
+    width: 100%;
+    height: 600px;
+    position: relative;
+    iframe{
+        width: 100%;
+        height: 100%;
+        border:0px;
+    }
+    #contact_header{
+        position: absolute;
+        bottom: -89px;
+        left:100px;
+        right:100px;
+        background: #a19181;
+        text-align: center;
+        color: white;
+        padding-top: 70px;
+        padding-bottom: 70px;
+        h1{
+            margin: 0;
+        }
+        @media screen and (max-width: $break-sm){
+            display:none;
+        }
+    }
+    #contact_header_sm{
+        background: #a19181;
+        text-align: center;
+        color: white;
+        padding-top: 40px;
+        padding-bottom: 40px;
+        margin-top: 2em;
+        h1{
+            margin: 0;
+        }
+        @media screen and (min-width: $break-sm){
+            display:none;
+        }
+    }
+}
+#contact_page_form_container{
+    margin-top: 80px;
+    @media screen and (max-width: $break-sm){
+        margin-top: 130px;
+    }
+    padding:50px 100px 50px 100px;
+    @media screen and (max-width: $break-md){
+        padding:50px 0 50px 0;
+    }
+    margin-bottom: 6em;
+    &>.row:first-child{
+        margin: 0;
+        @media screen and (min-width: $break-sm){
+            display: flex;
+        }
+        textarea {
+            resize: none;
+            height: 100%;
+            border-radius: 0;
+        }
+        input{
+            border-radius: 0;
+        }
+        .phone_input{
+            margin: 0;
+        }
+        .textarea_container{
+            padding-right: 0;
+            @media screen and (max-width: $break-sm){
+                margin-top:15px;
+                padding-left: 0;
+            }
+        }
+    }
+    button{
+        float: right;
+        margin-top: 15px;
+        border-radius: 0;
+        background: #80AF93;
+        color: white;
+        font-weight: 900;
+        padding:15px 30px 15px 30px;
+    }
+}
+/* contact page end */
