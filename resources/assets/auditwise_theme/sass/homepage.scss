@@ -364,14 +364,15 @@ html{
         margin-top:0;
     }
     p{
-        padding:0 3em 0 3em;
+        padding:0 100px 0 100px;
+        color: #adadad;
     }
     .row{
         margin-right: -7px;
         margin-left: -7px;
         .service_homepage_img_container{
             position:relative;
-            margin-top: 1em;
+            margin-top: 14px;
             img{
                 width:100%;
             }
@@ -799,6 +800,7 @@ $sidemenu-color:#80AF93;
                     }
                 }
                 .sidemenu_inner_li_container{
+                    text-align: left;
                     position: relative;
                     img.arrow_img{
                         position: absolute;
@@ -826,6 +828,11 @@ $sidemenu-color:#80AF93;
                        visibility: visible;
                     }
                 }
+                .sidemenu_inner_li_container{
+                    @media screen and (max-width: $break-md){
+                       text-align:center;
+                    }
+                }
             }
             &>li:not(.active){
                 @media screen and (max-width: $break-md){
@@ -841,6 +848,9 @@ $sidemenu-color:#80AF93;
                 &>li.active{
                     i.fa-bars{
                         visibility: hidden;
+                    }
+                    .sidemenu_inner_li_container{
+                        text-align: left;
                     }
                 }
             }

@@ -287,13 +287,14 @@ html h1, html h2, html h3, html h4, html h5 {
     #services_container {
       margin-top: 0; } }
   #services_container p {
-    padding: 0 3em 0 3em; }
+    padding: 0 100px 0 100px;
+    color: #adadad; }
   #services_container .row {
     margin-right: -7px;
     margin-left: -7px; }
     #services_container .row .service_homepage_img_container {
       position: relative;
-      margin-top: 1em; }
+      margin-top: 14px; }
       #services_container .row .service_homepage_img_container img {
         width: 100%; }
       #services_container .row .service_homepage_img_container span {
@@ -627,6 +628,7 @@ html h1, html h2, html h3, html h4, html h5 {
       .page_sidemenu > ul > a > li:hover .sidemenu_inner_li_container img.arrow_img {
         visibility: visible; }
     .page_sidemenu > ul > a > li .sidemenu_inner_li_container {
+      text-align: left;
       position: relative; }
       .page_sidemenu > ul > a > li .sidemenu_inner_li_container img.arrow_img {
         position: absolute;
@@ -647,6 +649,9 @@ html h1, html h2, html h3, html h4, html h5 {
     @media screen and (max-width: 992px) {
       .page_sidemenu > ul > a > li.active i.fa-bars {
         visibility: visible; } }
+    @media screen and (max-width: 992px) {
+      .page_sidemenu > ul > a > li.active .sidemenu_inner_li_container {
+        text-align: center; } }
   @media screen and (max-width: 992px) {
     .page_sidemenu > ul > a > li:not(.active) {
       display: none; } }
@@ -654,6 +659,8 @@ html h1, html h2, html h3, html h4, html h5 {
     display: block; }
   .page_sidemenu > ul:hover > a > li.active i.fa-bars {
     visibility: hidden; }
+  .page_sidemenu > ul:hover > a > li.active .sidemenu_inner_li_container {
+    text-align: left; }
 
 .page_sidemenu_services {
   left: 0px;
