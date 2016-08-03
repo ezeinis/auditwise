@@ -287,8 +287,10 @@ html h1, html h2, html h3, html h4, html h5 {
     #services_container {
       margin-top: 0; } }
   #services_container p {
-    padding: 0 100px 0 100px;
     color: #adadad; }
+    @media screen and (min-width: 992px) {
+      #services_container p {
+        padding: 0 100px 0 100px; } }
   #services_container .row {
     margin-right: -7px;
     margin-left: -7px; }
