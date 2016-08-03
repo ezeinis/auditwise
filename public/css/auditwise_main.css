@@ -510,7 +510,7 @@ html h1, html h2, html h3, html h4, html h5 {
 #career_drawer {
   position: fixed;
   top: 0;
-  right: -35%;
+  right: -25%;
   width: 25%;
   height: 100%;
   background: #A19181;
@@ -544,7 +544,7 @@ html h1, html h2, html h3, html h4, html h5 {
     border-color: #a19181;
     box-shadow: 0 0 8px rgba(82, 82, 82, 0.6); }
 
-/* career drawer */
+/* career drawer end*/
 /* About page */
 .about_container {
   margin-left: 155px;

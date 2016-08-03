@@ -1,6 +1,7 @@
 var is_career_open=0;
 var is_search_open=0;
 
+//set who we are label over main home banner
 $(document).ready(function(){
     $('input[type="checkbox"]').prop('checked', false);
     var who_we_are_height=$('#who_we_are_container').height();
@@ -8,13 +9,15 @@ $(document).ready(function(){
     $('#who_we_are_container').css('bottom',-(who_we_are_height/2)+'px');
 });
 
+//open main menu
 $('#drawer_trigger').on("click",function(){
     $('input[type="checkbox"]').prop('checked', true);
 });
 
+//close main menu
 $('.close_drawer').on("click",function(){
     if(is_career_open){
-        $('#career_drawer').css('right', '-25%');
+        $('#career_drawer').css('right', '-'+percentage+'%');
         setTimeout(function(){$('input[type="checkbox"]').prop('checked', false);},250);
         is_career_open=0;
         $('.career_menu_link').removeClass('active');
@@ -25,13 +28,23 @@ $('.close_drawer').on("click",function(){
 
 // js for career drawer
 $('.career_menu_link').on("click",function(){
+    var width = $( window ).width();
+    percentage = 0;
+    if(width>=992){
+        percentage = 25;
+    }else if(width<992 && width>=550){
+        percentage = 35;
+    }else{
+        percentage = 45;
+    }
+
     if(is_career_open==0){
         $('.career_menu_link').addClass('active');
-        $('#career_drawer').css('right', '25%');
+        $('#career_drawer').css('right', percentage+'%');
         is_career_open=1;
     }else{
         $('.career_menu_link').removeClass('active');
-        $('#career_drawer').css('right', '-25%');
+        $('#career_drawer').css('right', '-'+percentage+'%');
         is_career_open=0;
     }
 });
