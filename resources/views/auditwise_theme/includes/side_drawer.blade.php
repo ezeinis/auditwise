@@ -6,13 +6,25 @@
     </div>
     <nav>
         <ul>
-            <a href="/about/history"><li class="list_item <?php if(Route::getCurrentRoute()->getPath()=='about')echo 'active'; ?>">Who We Are</li></a>
-            <a href="/services"><li class="list_item <?php if(strpos(Route::getCurrentRoute()->getPath(),'services')===0)echo 'active'; ?>">Services</li></a>
-            <a href=""><li class="list_item">Our Clients</li></a>
-            <a href=""><li class="list_item">News / Publications</li></a>
-            <li class="career_menu_link list_item">Career</li>
-            <a href=""><li class="list_item">Links</li></a>
-            <a href="/contact"><li class="list_item <?php if(Route::getCurrentRoute()->getPath()=='contact')echo 'active'; ?>">Contact</li></a>
+            <li class="list_item <?php if(strpos(Route::getCurrentRoute()->getPath(),'about')===0)echo 'active'; ?>">
+                <a href="/about/history">Who We Are</a>
+            </li>
+            <li class="list_item <?php if(strpos(Route::getCurrentRoute()->getPath(),'services')===0)echo 'active'; ?>">
+                <a href="/services">Services</a>
+            </li>
+            <li class="list_item">
+                <a href="">Our Clients</a>
+            </li>
+            <li class="list_item">
+                <a href="">News / Publications</a>
+            </li>
+            <li class="career_menu_link list_item"><p>Career</p></li>
+            <li class="list_item">
+                <a href="">Links</a>
+            </li>
+            <li class="list_item <?php if(Route::getCurrentRoute()->getPath()=='contact')echo 'active'; ?>">
+                <a href="/contact">Who We Are</a>
+            </li>
         </ul>
     </nav>
     <div id="main_menu_social">
