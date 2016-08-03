@@ -36,6 +36,9 @@ html h1, html h2, html h3, html h4, html h5 {
     width: 100%;
     text-align: right;
     margin-bottom: 60px; }
+    @media screen and (max-height: 680px) {
+      .main_menu .close_drawer {
+        margin-bottom: 5px; } }
     .main_menu .close_drawer img {
       width: 20px;
       height: 20px; }
@@ -229,8 +232,7 @@ html h1, html h2, html h3, html h4, html h5 {
   #homepage_main_banner_container #who_we_are_container {
     position: absolute;
     left: 100px;
-    right: 100px;
-    background: #aaa; }
+    right: 100px; }
     @media screen and (max-width: 992px) {
       #homepage_main_banner_container #who_we_are_container {
         display: none; } }
@@ -243,13 +245,21 @@ html h1, html h2, html h3, html h4, html h5 {
         -ms-flex-align: center;
         align-items: center;
         -ms-flex-pack: center;
-        justify-content: center;
-        background: #d83734; }
+        justify-content: center; }
         #homepage_main_banner_container #who_we_are_container .container_2 > .row .who_we_are_home_title {
           text-align: center; }
         #homepage_main_banner_container #who_we_are_container .container_2 > .row .who_we_are_home_text_container {
           background: #a19181;
-          padding: 2.5em; }
+          height: 200px;
+          display: -ms-flexbox;
+          display: flex;
+          -ms-flex-align: center;
+          align-items: center;
+          -ms-flex-pack: center;
+          justify-content: center; }
+          #homepage_main_banner_container #who_we_are_container .container_2 > .row .who_we_are_home_text_container .who_we_are_home_inner_text_container {
+            padding-right: 20px;
+            padding-left: 20px; }
   #homepage_main_banner_container #who_we_are_container_md_and_smaller .row {
     margin: 0; }
   @media screen and (min-width: 992px) {
@@ -265,6 +275,8 @@ html h1, html h2, html h3, html h4, html h5 {
     text-align: left;
     padding: 20px; }
   #homepage_main_banner_container .who_we_are_home_title {
+    background: #d83734;
+    padding: 30px 0 30px 0;
     color: white;
     font-size: 2em; }
     #homepage_main_banner_container .who_we_are_home_title h1 {
@@ -521,6 +533,11 @@ html h1, html h2, html h3, html h4, html h5 {
   padding: 97px 20px 0 20px;
   transition: all 0.5s ease-out 0s;
   color: white; }
+  @media screen and (max-height: 680px) {
+    #career_drawer {
+      padding-top: 5px;
+      padding-right: 2px;
+      padding-left: 2px; } }
   @media screen and (max-width: 992px) and (min-width: 550px) {
     #career_drawer {
       right: -35%;
@@ -531,10 +548,17 @@ html h1, html h2, html h3, html h4, html h5 {
       width: 45%; } }
   #career_drawer h1 {
     text-align: center; }
+    @media screen and (max-height: 680px) {
+      #career_drawer h1 {
+        font-size: 28px;
+        margin: 0px; } }
   #career_drawer p {
     text-align: center; }
   #career_drawer form {
     margin-top: 50px; }
+    @media screen and (max-height: 680px) {
+      #career_drawer form {
+        margin-top: 0px; } }
     #career_drawer form input, #career_drawer form button {
       border-radius: 0; }
     #career_drawer form button {

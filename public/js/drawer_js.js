@@ -5,8 +5,9 @@ var is_search_open=0;
 $(document).ready(function(){
     $('input[type="checkbox"]').prop('checked', false);
     var who_we_are_height=$('#who_we_are_container').height();
-    console.log(who_we_are_height);
-    $('#who_we_are_container').css('bottom',-(who_we_are_height/2)+'px');
+    //console.log(who_we_are_height);
+    //$('#who_we_are_container').css('bottom',-(who_we_are_height/2)+'px');
+    $('#who_we_are_container').css('bottom','-100px');
 });
 
 //open main menu

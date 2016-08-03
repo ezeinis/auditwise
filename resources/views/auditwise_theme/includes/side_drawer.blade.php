@@ -23,7 +23,7 @@
                 <a href="">Links</a>
             </li>
             <li class="list_item <?php if(Route::getCurrentRoute()->getPath()=='contact')echo 'active'; ?>">
-                <a href="/contact">Who We Are</a>
+                <a href="/contact">Contact</a>
             </li>
         </ul>
     </nav>

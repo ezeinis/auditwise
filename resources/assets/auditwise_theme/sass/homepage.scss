@@ -49,6 +49,9 @@ html{
         width:100%;
         text-align:right;
         margin-bottom:60px;
+        @media screen and (max-height: 680px){
+            margin-bottom:5px;
+        }
         img{
             width:20px;
             height:20px;
@@ -298,7 +301,6 @@ html{
         position: absolute;
         left:100px;
         right:100px;
-        background:#aaa;
         .container_2{
             position:relative;
             &>.row{
@@ -306,13 +308,19 @@ html{
                 display:flex;
                 align-items: center;
                 justify-content: center;
-                background:$main-color;
                 .who_we_are_home_title{
                     text-align: center;
                 }
                 .who_we_are_home_text_container{
                     background:$secondary-color;
-                    padding:2.5em;
+                    height: 200px;
+                    display:flex;
+                    align-items: center;
+                    justify-content: center;
+                    .who_we_are_home_inner_text_container{
+                        padding-right: 20px;
+                        padding-left: 20px;
+                    }
                 }
             }
         }
@@ -338,6 +346,8 @@ html{
         }
     }
     .who_we_are_home_title{
+        background: $main-color;
+        padding: 30px 0 30px 0;
         h1{
             margin:0;
         }
@@ -662,6 +672,11 @@ html{
     background:#A19181;
     z-index: 5;
     padding:97px 20px 0 20px;
+    @media screen and (max-height: 680px){
+        padding-top:5px;
+        padding-right: 2px;
+        padding-left: 2px;
+    }
     transition: all 0.5s ease-out 0s;
     color: white;
     @media screen and (max-width: $break-md) and (min-width:550px){
@@ -674,12 +689,19 @@ html{
     }
     h1{
         text-align: center;
+        @media screen and (max-height: 680px){
+            font-size:28px;
+            margin: 0px;
+        }
     }
     p{
         text-align: center;
     }
     form{
         margin-top: 50px;
+        @media screen and (max-height: 680px){
+            margin-top:0px;
+        }
         input,button{
             border-radius:0;
         }

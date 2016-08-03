@@ -13,8 +13,10 @@
                         <h1>Who We Are</h1>
                     </div>
                     <div class="col-sm-8 col-md-8 col-lg-8 who_we_are_home_text_container">
+                        <div class="who_we_are_home_inner_text_container">
                         <p class="who_we_are_home_text_header">Pellentesque habitant morbi tristique senectus et netus.</p>
                         <p class="who_we_are_home_text">Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>
+                        </div>
                     </div>
                     </div>
                 </div>
