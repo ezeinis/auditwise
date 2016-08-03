@@ -158,18 +158,18 @@ html h1, html h2, html h3, html h4, html h5 {
         cursor: pointer; }
     #header_nav_container #header_bar #header_nav {
       text-align: right; }
-      #header_nav_container #header_bar #header_nav #drawer_trigger {
+      #header_nav_container #header_bar #header_nav #drawer_trigger span {
+        color: #a19181;
+        font-family: "proxima-nova";
+        font-size: 20px;
         cursor: pointer; }
-        #header_nav_container #header_bar #header_nav #drawer_trigger span {
-          color: #a19181;
-          font-family: "proxima-nova";
-          font-size: 20px; }
-          @media screen and (max-width: 768px) {
-            #header_nav_container #header_bar #header_nav #drawer_trigger span {
-              display: none; } }
-        #header_nav_container #header_bar #header_nav #drawer_trigger img {
-          height: 20px;
-          margin-left: 0.5em; }
+        @media screen and (max-width: 768px) {
+          #header_nav_container #header_bar #header_nav #drawer_trigger span {
+            display: none; } }
+      #header_nav_container #header_bar #header_nav #drawer_trigger img {
+        height: 20px;
+        margin-left: 0.5em;
+        cursor: pointer; }
     #header_nav_container #header_bar #search_input {
       position: absolute;
       top: -4px;

@@ -214,11 +214,11 @@ html{
         #header_nav{
             text-align: right;
             #drawer_trigger{
-                cursor:pointer;
                 span{
                     color:$secondary-color;
                     font-family: $header-font;
                     font-size:20px;
+                    cursor:pointer;
                     @media screen and (max-width: $break-sm){
                         display:none;
                     }
@@ -226,6 +226,7 @@ html{
                 img{
                     height:20px;
                     margin-left:0.5em;
+                    cursor:pointer;
                 }
             }
         }

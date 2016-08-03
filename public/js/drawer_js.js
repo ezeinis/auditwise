@@ -10,7 +10,11 @@ $(document).ready(function(){
 });
 
 //open main menu
-$('#drawer_trigger').on("click",function(){
+$('#drawer_trigger>span').on("click",function(){
+    $('input[type="checkbox"]').prop('checked', true);
+});
+
+$('#drawer_trigger>img').on("click",function(){
     $('input[type="checkbox"]').prop('checked', true);
 });
 
