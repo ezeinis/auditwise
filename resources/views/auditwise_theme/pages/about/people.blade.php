@@ -39,7 +39,7 @@
         </div>
     </div>
 
-    <div class="page_sidemenu">
+    <div class="page_sidemenu people_sidemenu">
         <ul>
             <a href="">
                 <li>

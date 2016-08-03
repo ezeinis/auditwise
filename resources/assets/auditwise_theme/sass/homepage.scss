@@ -870,6 +870,9 @@ $sidemenu-color:#80AF93;
 /* people start */
 .people_container{
     padding-top:1em;
+    @media screen and (max-width: $break-md){
+        padding-top:90px;
+    }
     .person_image_text_container{
         .person_image{
             width: 100%;
@@ -891,6 +894,14 @@ $sidemenu-color:#80AF93;
     }
     h1.title{
         margin-bottom: 1em;
+        @media screen and (max-width: $break-md){
+            display:none;
+        }
+    }
+}
+.people_sidemenu{
+    @media screen and (max-width: $break-md){
+        top:150px;
     }
 }
 

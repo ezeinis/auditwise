@@ -672,6 +672,9 @@ html h1, html h2, html h3, html h4, html h5 {
 /* people start */
 .people_container {
   padding-top: 1em; }
+  @media screen and (max-width: 992px) {
+    .people_container {
+      padding-top: 90px; } }
   .people_container .person_image_text_container .person_image {
     width: 100%; }
   .people_container .person_image_text_container .people_name, .people_container .person_image_text_container .people_title {
@@ -683,6 +686,13 @@ html h1, html h2, html h3, html h4, html h5 {
     margin: 0; }
   .people_container h1.title {
     margin-bottom: 1em; }
+    @media screen and (max-width: 992px) {
+      .people_container h1.title {
+        display: none; } }
+
+@media screen and (max-width: 992px) {
+  .people_sidemenu {
+    top: 150px; } }
 
 /* people end */
 /* contact page start */
