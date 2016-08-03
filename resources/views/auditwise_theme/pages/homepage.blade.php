@@ -115,7 +115,7 @@
                     <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
                 </div>
                 <div class="col-lg-2">
-                    <a href="">read more</a>
+                    <a href="news/1">read more</a>
                 </div>
             </div>
             <div class="row">
@@ -123,7 +123,7 @@
                     <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
                 </div>
                 <div class="col-lg-2">
-                    <a href="">read more</a>
+                    <a href="news/1">read more</a>
                 </div>
             </div>
             <div class="row">
@@ -131,7 +131,7 @@
                     <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
                 </div>
                 <div class="col-lg-2">
-                    <a href="">read more</a>
+                    <a href="news/1">read more</a>
                 </div>
             </div>
             <div class="row">
@@ -139,7 +139,7 @@
                     <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
                 </div>
                 <div class="col-lg-2">
-                    <a href="">read more</a>
+                    <a href="news/1">read more</a>
                 </div>
             </div>
             <div class="row">
@@ -147,7 +147,7 @@
                     <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
                 </div>
                 <div class="col-lg-2">
-                    <a href="">read more</a>
+                    <a href="news/1">read more</a>
                 </div>
             </div>
         </div>

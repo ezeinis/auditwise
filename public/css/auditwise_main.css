@@ -760,5 +760,53 @@ html h1, html h2, html h3, html h4, html h5 {
     padding: 15px 30px 15px 30px; }
 
 /* contact page end */
+/* single_post start*/
+#single_post_container {
+  background: #ededed;
+  padding-top: 7em;
+  margin-bottom: 20px; }
+  #single_post_container .single_post_date p {
+    color: #709980; }
+  #single_post_container .single_post_title h2 {
+    color: #6b6b6b; }
+  #single_post_container .single_post_text p {
+    color: black; }
+  #single_post_container .single_post_social {
+    margin-top: 10px;
+    margin-bottom: 30px; }
+    #single_post_container .single_post_social .social_button {
+      padding: 10px;
+      width: 130px;
+      color: white;
+      display: inline-block;
+      text-align: center; }
+      #single_post_container .single_post_social .social_button i {
+        margin-right: 10px; }
+    #single_post_container .single_post_social .social_button.fb_button {
+      background: #3b5998; }
+    #single_post_container .single_post_social .social_button.twitter_button {
+      background: #1da1f2; }
+    #single_post_container .single_post_social .social_button.g_button {
+      background: #d62d20; }
+
+@media screen and (max-width: 992px) {
+  .page_sidemenu_sinlge_post {
+    top: 160px; } }
+
+@media screen and (max-width: 768px) {
+  .page_sidemenu_sinlge_post {
+    left: 0px; } }
+
+.page_sidemenu_sinlge_post ul a li {
+  background: #525252; }
+
+#go_to_news {
+  text-align: right;
+  margin-bottom: 20px; }
+  #go_to_news a {
+    color: #d83734;
+    font-weight: 900; }
+
+/* single_post end*/
 
 /*# sourceMappingURL=auditwise_main.css.map */

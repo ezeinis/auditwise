@@ -58,3 +58,7 @@ Route::get('/services/business_advisors', function () {
 Route::get('/contact', function () {
     return view('auditwise_theme.pages.contact');
 });
+
+Route::get('/news/{id}', function () {
+    return view('auditwise_theme.pages.single_post');
+});
