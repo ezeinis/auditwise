@@ -4,11 +4,11 @@
     <div class="about_container people_container">
         <h1 class="title">Our People</h1>
         <div class="row">
-            <div class="person_image_text_container flex">
-                <div class="col-md-6">
+            <div class="person_image_text_container">
+                <div class="col-xs-6 people_col">
                     <img class="person_image" src="/images/person.png">
                 </div>
-                <div class="col-md-6">
+                <div class="col-xs-6 people_col">
                     <div class="people_name"><h1>Panicos Fessas</h1></div>
                     <div class="people_title"><h4>BSc (Econ), ACCA Director</h4></div>
                 </div>
@@ -21,12 +21,12 @@
             <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui. Donec non enim in turpis pulvinar facilisis. Ut felis. Praesent dapibus, neque id cursus faucibus, </p>
         </div>
         <div class="row">
-            <div class="person_image_text_container flex">
-                <div class="col-md-6">
+            <div class="person_image_text_container">
+                <div class="col-xs-6 people_col">
                     <div class="people_name"><h1>Panayiotis Yiannas</h1></div>
                     <div class="people_title"><h4>BSc (Econ), ACCA Director</h4></div>
                 </div>
-                <div class="col-md-6">
+                <div class="col-xs-6 people_col">
                     <img class="person_image" src="/images/person.png">
                 </div>
             </div>

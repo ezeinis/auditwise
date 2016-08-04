@@ -1,0 +1,78 @@
+/* footer */
+#footer_outer_container{
+    color:white;
+    background:$main-color;
+    padding-top:6em;
+    padding-bottom:0px;
+    @include devices_max($break-sm){
+        padding-top:3em;
+    }
+    &>#footer_inner_container{
+        max-width: 1400px;
+        margin-right: auto;
+        margin-left: auto;
+        &>.row{
+            &:nth-child(1){
+                margin-bottom:4em;
+                p{
+                    margin:0;
+                }
+                #telephone{
+                    margin-top:20px;
+                    @include devices_max($break-sm){
+                        text-align: center;
+                        margin-bottom: 3em;
+                    }
+                }
+                #address{
+                    @include devices_max($break-sm){
+                        text-align: center;
+                    }
+                }
+                #footer_logo{
+                    text-align:center;
+                    img{
+                        width:250px;
+                    }
+                }
+
+                #footer_social{
+                    margin-top: 35px;
+                    img{
+                        height:25px;
+                        margin:20px;
+                    }
+                }
+                #footer_contact_us{
+                    font-size: 2em;
+                    img{
+                        margin-left: 10px;
+                        height:20px;
+                    }
+                }
+                div:nth-child(3){
+                    text-align: right;
+                    @include devices_max($break-sm){
+                        text-align: center;
+                    }
+                }
+            }
+            &:nth-child(2){
+                font-size: 0.7em;
+                #copyright{
+                    text-align:left;
+                    p{
+                        font-size:1.2em;
+                    }
+                }
+                #designed{
+                    text-align:right;
+                    p{
+                        font-size:1.2em;
+                    }
+                }
+            }
+        }
+    }
+}
+/* footer end*/

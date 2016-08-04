@@ -1,0 +1,39 @@
+html{
+    p,a,li,button{
+        font-family:$text-font;
+        font-size:16px;
+    }
+    h1,h2,h3,h4,h5{
+        font-family:$header-font;
+    }
+}
+
+#site_wrap{
+    max-width: 1400px;
+    position: relative;
+}
+
+.flex{
+    @include flex_center;
+}
+
+.homepage_section{
+    margin-bottom:2.5em;
+}
+
+.section_title{
+    color:$secondary-color;
+    margin-top:2.5em;
+}
+
+.right{
+    text-align:right;
+}
+
+.home_social_top{
+
+}
+
+.home_social_bottom{
+
+}

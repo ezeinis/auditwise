@@ -12,5 +12,5 @@ var elixir = require('laravel-elixir');
  */
 
 elixir(function(mix) {
-    mix.sass('./resources/assets/auditwise_theme/sass/homepage.scss','public/css/auditwise_main.css');
+    mix.sass('./resources/assets/auditwise_theme/sass/main.scss','public/css/auditwise_main.css');
 });

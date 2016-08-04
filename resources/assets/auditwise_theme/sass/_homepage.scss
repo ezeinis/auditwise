@@ -1,0 +1,271 @@
+/* main_banner start */
+#homepage_main_banner_container{
+    position:relative;
+    img{
+        width:100%;
+        height:801px;
+        @include devices($break-md,$break-lg){
+            height:731px;
+        }
+        @include devices($break-sm,$break-md){
+            height:450px;
+        }
+        @include devices_max($break-sm){
+            height:271px;
+        }
+    }
+    .text_in_main_banner{
+        position:absolute;
+        top:200px;
+        width:50%;
+        left:100px;
+        color:white;
+        font-size: 3em;
+        font-family: $header-font;
+        line-height: 1em;
+        @include devices($break-sm,$break-md){
+            font-size: 2.5em;
+            top:150px;
+            left:20px;
+        }
+        @include devices_max($break-sm){
+            font-size: 2em;
+            top:50px;
+            width:70%;
+            left:20px;
+        }
+    }
+    #who_we_are_container{
+        @include devices_max($break-md){
+            display:none;
+        }
+        position: absolute;
+        left:100px;
+        right:100px;
+        .container_2{
+            position:relative;
+            &>.row{
+                margin:0;
+                @include flex_center;
+                .who_we_are_home_title{
+                    text-align: center;
+                }
+                .who_we_are_home_text_container{
+                    background:$secondary-color;
+                    height: 200px;
+                    @include flex_center;
+                    .who_we_are_home_inner_text_container{
+                        padding-right: 20px;
+                        padding-left: 20px;
+                    }
+                }
+            }
+        }
+    }
+    #who_we_are_container_md_and_smaller{
+        .row{
+            margin:0;
+        }
+        @include devices_min($break-md){
+            display:none;
+        }
+        .who_we_are_home_title{
+            h2{
+                margin:0;
+            }
+            background:$main-color;
+            padding:20px;
+        }
+        .who_we_are_home_text_container{
+            background:$secondary-color;
+            text-align: left;
+            padding:20px;
+        }
+    }
+    .who_we_are_home_title{
+        background: $main-color;
+        padding: 30px 0 30px 0;
+        h1{
+            margin:0;
+        }
+        color:white;
+        font-size: 2em;
+        @include devices_max($break-sm){
+            font-size: 1.5em;
+        }
+    }
+    .who_we_are_home_text_header{
+        font-weight: bold;
+        color:#525252;
+    }
+    .who_we_are_home_text{
+            color: white;
+        }
+}
+/* main_banner end */
+
+/* services section home*/
+#services_container{
+    text-align:center;
+    margin-top:12em;
+    @include devices_max($break-md){
+        margin-top:0;
+    }
+    p{
+        @include devices_min($break-md){
+            padding:0 100px 0 100px;
+        }
+        color: #adadad;
+    }
+    .row{
+        margin-right: -7px;
+        margin-left: -7px;
+        .service_homepage_img_container{
+            position:relative;
+            margin-top: 14px;
+            img{
+                width:100%;
+            }
+            span{
+                position:absolute;
+                top:0;
+                left:0;
+                width:80%;
+                margin-left: 10%;
+                text-align:center;
+                margin-top:1em;
+                font-family:$header-font;
+            }
+        }
+        .col-xs-6,.col-sm-4,.col-md-4,.col-lg-4{
+            padding-right: 7px;
+            padding-left: 7px;
+        }
+        .services_col_container{
+            position: relative;
+            @include devices_max(500px){
+                width:100%;
+            }
+            .services_arrow{
+                position: absolute;
+                bottom: 20px;
+                right: 20px;
+                width: 20px;
+                height: 20px;
+            }
+        }
+    }
+    a{
+        color:white;
+        font-size: 2.2em;
+        @include devices($break-sm,$break-md){
+            font-size: 1.8em;
+        }
+        @include devices_max(610px){
+            font-size: 1.5em;
+        }
+        @include devices_max(500px){
+            font-size: 2em;
+        }
+        &:hover{
+            opacity: 0.8;
+        }
+    }
+}
+/* services section home end*/
+
+/* news home section*/
+#news_container{
+    &>.row{
+        margin-right: 0;
+        margin-left: 0;
+        #news_banner_text_container{
+            @include devices_min($break-sm){
+                @include flex_center;
+            }
+            font-weight:bold;
+            background: #525252;
+            #news_img_col{
+                padding: 0;
+                img{
+                    width: 100%;
+                }
+            }
+            p{
+                color: white;
+                width: 80%;
+                margin-left: 30px;
+            }
+            a{
+                color:#a19181;
+                float: right;
+                &:hover{
+                    text-decoration:none;
+                }
+            }
+            .col-xs-12{
+                @include devices_max($break-sm){
+                    background:#525252;
+                    padding: 2em;
+                }
+            }
+        }
+    }
+    #publications_container{
+        margin-top: 2em;
+        .row{
+            margin:0;
+            border-bottom: 1px solid #adadad;
+            margin-top: 1em;
+            a{
+            color:#a19181;
+            float: right;
+                &:hover{
+                    text-decoration:none;
+                }
+            }
+            .publ_text{
+                padding-left: 0;
+            }
+        }
+    }
+    #go_to_news_page{
+        text-align: right;
+        margin-top: 1em;
+        padding-right: 0;
+        a{
+            font-weight: 900;
+            color:$main-color;
+        }
+    }
+}
+
+/* news home section end */
+
+/* home clients section */
+#selected_clients_container{
+    background:white;
+    text-align:center;
+    padding:0em 4em 3em 4em;
+    @include devices_max(500px){
+        padding:5em 0em 3em 0em;
+    }
+    h2{
+        margin-bottom:1em;
+    }
+    a{
+        color:$main-color;
+        font-weight: 900;
+    }
+    #auditwise_clients{
+        margin-bottom:2em;
+        .homepage_clients{
+            background:#aaa;
+            height:100px;
+        }
+        .col-xs-4,.col-sm-4{
+            margin-top:1em;
+        }
+    }
+}
+/* home clients section end*/

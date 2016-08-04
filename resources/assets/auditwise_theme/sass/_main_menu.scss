@@ -1,0 +1,95 @@
+#toggle-right {
+    display: none;
+    &:checked ~ .main_menu{
+        right: 0%;
+    }
+}
+.main_menu{
+    position:fixed;
+    top:0;
+    right:-25%;
+    width:25%;
+    height:100%;
+    background:$menu-color;
+    z-index: 10;
+    padding:20px 0 0 0;
+    transition: all 0.15s ease-out 0s;
+    @include devices(550px,$break-md){
+        right:-35%;
+        width:35%;
+    }
+    @include devices_max(550px){
+        right:-45%;
+        width:45%;
+    }
+    .close_drawer{
+        padding-right:2em;
+        cursor: pointer;
+        width:100%;
+        text-align:right;
+        margin-bottom:60px;
+        @media screen and (max-height: 680px){
+            margin-bottom:5px;
+        }
+        img{
+            width:20px;
+            height:20px;
+        }
+    }
+    nav{
+        ul{
+            padding:0;
+            width:100%;
+            li{
+                cursor:pointer;
+                list-style-type:none;
+                text-align:center;
+                font-weight: 900;
+                color:white;
+                transition: background 0.5s ease-out;
+                &:hover{
+                    background:#A19181;
+                }
+                a{
+                    display: block;
+                    width: 100%;
+                    padding-top: 1em;
+                    padding-bottom: 1em;
+                    color:white;
+                    font-size:1.2em;
+                    &:hover{
+                        text-decoration:none;
+                    }
+                }
+                p{
+                    margin: 0;
+                    font-size:1.2em;
+                }
+            }
+            li.active{
+                background:#A19181;
+            }
+            li.career_menu_link{
+                padding-top: 1em;
+                padding-bottom: 1em;
+            }
+        }
+    }
+    #main_menu_social{
+        margin-top: 4em;
+        padding:0 1em 0 1em;
+        &>.row{
+            text-align: center;
+            a{
+                padding: 10px;
+                i{
+                font-size: 1.4em;
+                color:#adadad;
+                    &:hover{
+                        color:#a19181;
+                    }
+                }
+            }
+        }
+    }
+}

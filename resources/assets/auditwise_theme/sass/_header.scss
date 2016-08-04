@@ -1,0 +1,101 @@
+.lang{
+    font-weight: 900;
+    color:$secondary-home-color;
+}
+
+.lang_active{
+    color:$main-home-color;
+}
+
+#header_nav_container{
+    margin-bottom:1em;
+    #language{
+        text-align:right;
+    }
+    #header_bar{
+        @include flex_center();
+        #header_logo{
+            text-align:center;
+            @include devices_max($break-sm){
+                text-align:left;
+            }
+            img{
+                height:92px;
+            }
+        }
+        #header_spacer{
+            display:none;
+            @include devices_max($break-sm){
+                display:block;
+            }
+        }
+        #header_social{
+            @include devices_max($break-sm){
+                display:none;
+            }
+            i{
+                font-size:28px;
+                color:#a19181;
+                &:hover{
+                    color:#adadad;
+                    text-decoration: none;
+                }
+            }
+            a:not(:last-child){
+                margin-right:2em;
+            }
+            a{
+                &:hover{
+                    text-decoration: none;
+                }
+            }
+        }
+        #header_search{
+            position: relative;
+            text-align:right;
+            img{
+                height:20px;
+                cursor: pointer;
+            }
+        }
+        #header_nav{
+            text-align: right;
+            #drawer_trigger{
+                span{
+                    color:$secondary-color;
+                    font-family: $header-font;
+                    font-size:20px;
+                    cursor:pointer;
+                    @media screen and (max-width: $break-sm){
+                        display:none;
+                    }
+                }
+                img{
+                    height:20px;
+                    margin-left:0.5em;
+                    cursor:pointer;
+                }
+            }
+        }
+        #search_input{
+            position: absolute;
+            top:-4px;
+            right:60px;
+            visibility: hidden;
+            border-radius:0;
+            width:200px;
+            @include devices($break-sm,1060px){
+                width:130px;
+                right:45px;
+            }
+            @include devices(483px,566px){
+                top:30px;
+                right:0px;
+            }
+            @include devices_max(483px){
+                top:30px;
+                right:-45px;
+            }
+        }
+    }
+}
