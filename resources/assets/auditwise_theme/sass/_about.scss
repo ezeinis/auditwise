@@ -34,6 +34,9 @@
 
 /* people start */
 .people_container{
+    @include devices_min($break-md){
+        padding-top:4em;
+    }
     .person_image_text_container{
         @include devices_min(500px){
             @include flex_center;

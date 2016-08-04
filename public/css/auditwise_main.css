@@ -482,7 +482,9 @@ html h1, html h2, html h3, html h4, html h5 {
       #news_container #publications_container .row a:hover {
         text-decoration: none; }
     #news_container #publications_container .row .publ_text {
-      padding-left: 0; }
+      padding-left: 0;
+      font-weight: 900;
+      color: #525252; }
 
 #news_container #go_to_news_page {
   text-align: right;
@@ -608,6 +610,10 @@ html h1, html h2, html h3, html h4, html h5 {
 
 /* About page end */
 /* people start */
+@media only screen and (min-width: 992px) {
+  .people_container {
+    padding-top: 4em; } }
+
 @media only screen and (min-width: 500px) {
   .people_container .person_image_text_container {
     display: -ms-flexbox;
