@@ -53,6 +53,15 @@ $('.career_menu_link').on("click",function(){
         is_career_open=0;
     }
 });
+$(window).resize(function(){
+    var width=$(window).width();
+    if(width<992 && width>=550){
+        $('#career_drawer').css('right', '-35%');
+    }else if(width<550){
+        $('#career_drawer').css('right', '-45%');
+    }
+});
+
 
 //open search on click
 $('#header_search>img').on("click",function(){
