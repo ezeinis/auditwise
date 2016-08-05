@@ -38,9 +38,17 @@
 
                 #footer_social{
                     margin-top: 35px;
-                    img{
-                        height:25px;
-                        margin:20px;
+                    a{
+                        i{
+                            font-size:34px;
+                            color:white;
+                        }
+                        &:not(:first-child){
+                            i{
+                                margin-left:43px;
+                            }
+
+                        }
                     }
                 }
                 #footer_contact_us{

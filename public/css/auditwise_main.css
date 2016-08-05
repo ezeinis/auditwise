@@ -114,22 +114,20 @@ html h1, html h2, html h3, html h4, html h5 {
 /* newsletter */
 #newsletter_container {
   background: url("/images/homepage/newsletter.jpg");
-  padding: 0 2em 0 2em;
-  height: 406px; }
-  @media only screen and (min-width: 992px) and (max-width: 1200px) {
-    #newsletter_container {
-      height: 340px; } }
-  @media only screen and (min-width: 768px) and (max-width: 992px) {
-    #newsletter_container {
-      height: 283px; } }
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 250px; }
   @media only screen and (max-width: 768px) {
     #newsletter_container {
-      height: 260px; } }
+      padding-left: 15px;
+      padding-right: 15px; } }
   #newsletter_container #newsletter p, #newsletter_container #newsletter h2 {
     text-align: center; }
+  #newsletter_container #newsletter h2.section_title {
+    margin-bottom: 30px;
+    margin-top: 0; }
   #newsletter_container #newsletter p {
-    color: white;
-    margin-bottom: 4em; }
+    color: white; }
     @media only screen and (max-width: 992px) {
       #newsletter_container #newsletter p {
         margin-bottom: 1em; } }
@@ -142,6 +140,21 @@ html h1, html h2, html h3, html h4, html h5 {
     color: white;
     background: #a19181;
     border-color: #a19181; }
+    @media only screen and (max-width: 500px) {
+      #newsletter_container #newsletter button {
+        padding: 0;
+        padding-top: 6px;
+        padding-bottom: 6px; } }
+    #newsletter_container #newsletter button .fa-envelope-o {
+      display: none;
+      font-size: 18px;
+      padding-bottom: 2px; }
+      @media only screen and (max-width: 400px) {
+        #newsletter_container #newsletter button .fa-envelope-o {
+          display: block; } }
+    @media only screen and (max-width: 400px) {
+      #newsletter_container #newsletter button .sub_text {
+        display: none; } }
   #newsletter_container #newsletter .form-control:focus {
     border-color: #a19181;
     box-shadow: 0px 0px 5px #a19181; }
@@ -256,9 +269,11 @@ html h1, html h2, html h3, html h4, html h5 {
           width: 250px; }
       #footer_outer_container > #footer_inner_container > .row:nth-child(1) #footer_social {
         margin-top: 35px; }
-        #footer_outer_container > #footer_inner_container > .row:nth-child(1) #footer_social img {
-          height: 25px;
-          margin: 20px; }
+        #footer_outer_container > #footer_inner_container > .row:nth-child(1) #footer_social a i {
+          font-size: 34px;
+          color: white; }
+        #footer_outer_container > #footer_inner_container > .row:nth-child(1) #footer_social a:not(:first-child) i {
+          margin-left: 43px; }
       #footer_outer_container > #footer_inner_container > .row:nth-child(1) #footer_contact_us {
         font-size: 2em; }
         #footer_outer_container > #footer_inner_container > .row:nth-child(1) #footer_contact_us img {
@@ -456,10 +471,17 @@ html h1, html h2, html h3, html h4, html h5 {
       padding: 0; }
       #news_container > .row #news_banner_text_container #news_img_col img {
         width: 100%; }
+      @media only screen and (max-width: 990px) {
+        #news_container > .row #news_banner_text_container #news_img_col {
+          display: none; } }
     #news_container > .row #news_banner_text_container p {
       color: white;
       width: 80%;
       margin-left: 30px; }
+    #news_container > .row #news_banner_text_container #featured_article_title {
+      margin-left: 30px;
+      margin-bottom: 40px;
+      color: white; }
     #news_container > .row #news_banner_text_container a {
       color: #a19181;
       float: right; }
@@ -469,6 +491,9 @@ html h1, html h2, html h3, html h4, html h5 {
       #news_container > .row #news_banner_text_container .col-xs-12 {
         background: #525252;
         padding: 2em; } }
+    @media only screen and (max-width: 990px) {
+      #news_container > .row #news_banner_text_container .col-xs-12 {
+        width: 100%; } }
 
 #news_container #publications_container {
   margin-top: 2em; }
@@ -753,8 +778,6 @@ html h1, html h2, html h3, html h4, html h5 {
       background: #3b5998; }
     #single_post_container .single_post_social .social_button.twitter_button {
       background: #1da1f2; }
-    #single_post_container .single_post_social .social_button.g_button {
-      background: #d62d20; }
 
 @media only screen and (max-width: 992px) {
   .page_sidemenu_sinlge_post {

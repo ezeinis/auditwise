@@ -2,7 +2,7 @@
 
 @section('content')
     <div id="google_maps_container">
-        <iframe src="//www.google.com/maps/embed/v1/place?q=Harrods,Brompton%20Rd,%20UK&zoom=17&key=AIzaSyB165ZXH0MizYqAzFNGqle5WwnfJ6WBx_g"></iframe>
+        <iframe id="google_map" src="//www.google.com/maps/embed/v1/place?q=1%20Eleftheroupoleos,Nicosia,%20CY&zoom=16&key=AIzaSyB165ZXH0MizYqAzFNGqle5WwnfJ6WBx_g"></iframe>
         <div id="contact_header"><h1>Contact Us</h1></div>
         <div id="contact_header_sm"><h1>Contact Us</h1></div>
     </div>

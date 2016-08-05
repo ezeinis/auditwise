@@ -103,10 +103,11 @@
         <div class="row">
             <div id="news_banner_text_container">
                 <div class="col-xs-12 col-sm-5 col-md-7 col-lg-7">
-                <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante.</p>
+                <h3 id="featured_article_title">Αλλαγές συντελεστών Φ.Π.Α</h3>
+                <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante...</p>
                 <a href="">read more</a>
                 </div>
-                <div id="news_img_col" class="hidden-xs col-sm-7 col-md-5 col-lg-5">
+                <div id="news_img_col" class="col-sm-7 col-md-5 col-lg-5">
                     <img src="/images/homepage/news.jpg">
                 </div>
             </div>

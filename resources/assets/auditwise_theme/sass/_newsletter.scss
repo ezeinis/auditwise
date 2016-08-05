@@ -1,25 +1,25 @@
 /* newsletter */
 #newsletter_container{
     background:url('/images/homepage/newsletter.jpg');
-    padding:0 2em 0 2em;
-    height:406px;
-    @include devices($break-md,$break-lg){
-        height:340px;
-    }
-    @include devices($break-sm,$break-md){
-        height:283px;
-    }
+    background-repeat:no-repeat;
+    background-position:center;
+    height:250px;
     @include devices_max($break-sm){
-        height:260px;
+        padding-left:15px;
+        padding-right:15px;
     }
 
     #newsletter{
         p,h2{
             text-align:center;
         }
+        h2.section_title{
+            margin-bottom:30px;
+            margin-top:0;
+        }
         p{
             color:white;
-            margin-bottom:4em;
+
             @include devices_max($break-md){
                 margin-bottom:1em;
             }
@@ -36,6 +36,24 @@
             color:white;
             background:$secondary-color;
             border-color:$secondary-color;
+            @include devices_max(500px){
+                padding:0;
+                padding-top:6px;
+                padding-bottom:6px;
+            }
+            .fa-envelope-o{
+                display:none;
+                font-size:18px;
+                padding-bottom:2px;
+                @include devices_max(400px){
+                    display:block;
+                }
+            }
+            .sub_text{
+                @include devices_max(400px){
+                    display:none;
+                }
+            }
         }
         .form-control:focus{
             border-color:$secondary-color;

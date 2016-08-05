@@ -190,11 +190,19 @@
                 img{
                     width: 100%;
                 }
+                @include devices_max(990px){
+                    display:none;
+                }
             }
             p{
                 color: white;
                 width: 80%;
                 margin-left: 30px;
+            }
+            #featured_article_title{
+                margin-left:30px;
+                margin-bottom:40px;
+                color:white;
             }
             a{
                 color:#a19181;
@@ -207,6 +215,9 @@
                 @include devices_max($break-sm){
                     background:#525252;
                     padding: 2em;
+                }
+                @include devices_max(990px){
+                    width:100%;
                 }
             }
         }

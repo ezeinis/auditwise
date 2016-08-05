@@ -7,7 +7,7 @@
             <a href=""><i class="fa fa-facebook" aria-hidden="true"></i>
             </a>
             <a href=""><i class="fa fa-twitter" aria-hidden="true"></i></a>
-            <a href=""><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+            <a href=""><i class="fa fa-linkedin" aria-hidden="true"></i></a>
         </div>
         <div id="header_logo" class="col-xs-6">
             <a href="/"><img src="/images/icons/main_logo.svg"></a>

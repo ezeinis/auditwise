@@ -20,9 +20,9 @@
             </div>
             <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
                 <div id="footer_social">
-                    <a href=""><img src="/images/icons/facebook_footer.svg"></a>
-                    <a href=""><img src="/images/icons/twitter_footer.svg"></a>
-                    <a href=""><img class="home_social_bottom" src="/images/icons/g+_footer.svg"></a>
+                    <a href=""><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                    <a href=""><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                    <a href=""><i class="fa fa-linkedin" aria-hidden="true"></i></a>
                 </div>
                 <div id="footer_contact_us">
                     <h2>Contact Us<img src="/images/icons/arrow.svg"></h2>

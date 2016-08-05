@@ -60,6 +60,8 @@ $(window).resize(function(){
     }else if(width<550){
         $('#career_drawer').css('right', '-45%');
     }
+    var iframe = document.getElementById('google_map');
+    iframe.src = iframe.src;
 });
 
 
