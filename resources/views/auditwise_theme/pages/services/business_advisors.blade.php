@@ -30,7 +30,7 @@
                 </li>
             </a>
             <a href="/services/auditing_and_insurance">
-                <li class="active">
+                <li>
                     <div class="sidemenu_inner_li_container">Auditing & Assurance
                         <img class="arrow_img" src="/images/icons/arrow.svg">
                         <i class="fa fa-bars" aria-hidden="true"></i>
@@ -54,7 +54,7 @@
                 </li>
             </a>
             <a href="/services/business_advisors">
-                <li>
+                <li class="active">
                     <div class="sidemenu_inner_li_container">Business Advisors
                         <img class="arrow_img" src="/images/icons/arrow.svg">
                         <i class="fa fa-bars" aria-hidden="true"></i>

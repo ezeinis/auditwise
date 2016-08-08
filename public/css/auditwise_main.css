@@ -551,6 +551,9 @@ html h1, html h2, html h3, html h4, html h5 {
   @media only screen and (max-width: 992px) {
     .page_sidemenu {
       left: 2px; } }
+  @media only screen and (max-width: 992px) {
+    .page_sidemenu {
+      width: 319px !important; } }
   .page_sidemenu > ul > a:hover {
     text-decoration: none; }
   .page_sidemenu > ul > a > li {

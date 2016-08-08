@@ -7,6 +7,9 @@
     }
     top: 200px;
     width:265px;
+    @include devices_max($break-md){
+        width:319px!important;
+    }
     &>ul{
         &>a{
             &:hover{
