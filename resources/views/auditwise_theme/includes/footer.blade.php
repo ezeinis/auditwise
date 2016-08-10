@@ -25,7 +25,7 @@
                     <a href=""><i class="fa fa-linkedin" aria-hidden="true"></i></a>
                 </div>
                 <div id="footer_contact_us">
-                    <h2>Contact Us<img src="/images/icons/arrow.svg"></h2>
+                    <a href="/contact"><h2>Contact Us<img src="/images/icons/arrow.svg"></h2></a>
                 </div>
             </div>
         </div>
@@ -37,7 +37,7 @@
             </div>
             <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
                 <div id="designed">
-                    <p>DESIGNED & DEVELOPED BY DARKPONY</p>
+                    <p>DESIGNED & DEVELOPED BY <a href="http://darkpony.com/">DARKPONY</a></p>
                 </div>
             </div>
         </div>

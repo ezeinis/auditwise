@@ -77,25 +77,24 @@
                 }
             }
         }
-        #search_input{
-            position: absolute;
-            top:-4px;
-            right:60px;
-            visibility: hidden;
-            border-radius:0;
-            width:200px;
-            @include devices($break-sm,1060px){
-                width:130px;
-                right:45px;
-            }
-            @include devices(483px,566px){
-                top:30px;
-                right:0px;
-            }
-            @include devices_max(483px){
-                top:30px;
-                right:-45px;
-            }
+    }
+}
+#hidden_search_container{
+    text-align:center;
+    max-height:0px;
+    transition:all 1s ease;
+    opacity:0;
+    #search_input_hidden{
+        display:inline-block;
+        width:60%;
+        z-index:-90;
+        @include devices_max($break-sm){
+            width:90%;
         }
+    }
+    img{
+        display:inline-block;
+        height:20px;
+        cursor:pointer;
     }
 }

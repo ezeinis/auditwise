@@ -16,7 +16,6 @@
 
         </div>
         <div id="header_search" class="col-xs-1">
-            <input id="search_input" type="text" class="form-control" id="first_name" name="first_name" placeholder="search..">
             <img src="/images/icons/search.svg">
         </div>
         <div id="header_nav" class="col-xs-2">
@@ -26,4 +25,8 @@
             </div>
         </div>
     </div>
+</div>
+<div id="hidden_search_container">
+        <input id="search_input_hidden" type="text" class="form-control" name="search" placeholder="search..">
+        <img src="/images/icons/search.svg">
 </div>

@@ -68,11 +68,18 @@ $(window).resize(function(){
 //open search on click
 $('#header_search>img').on("click",function(){
     if(is_search_open==0){
-        $('#search_input').css('visibility','visible');
-        $('#search_input').focus();
+        // $('#search_input').css('visibility','visible');
+        // $('#search_input').focus();
+        $('#hidden_search_container').css('opacity','1');
+        $('#hidden_search_container').css('max-height','300px');
+        $('#hidden_search_container').css('padding-top','5px');
+        $('#hidden_search_container').css('padding-bottom','5px');
         is_search_open=1;
     }else{
-        $('#search_input').css('visibility','hidden');
+        // $('#search_input').css('visibility','hidden');
+        $('#hidden_search_container').css('opacity','0');
+        $('#hidden_search_container').css('max-height','0px');
+        $('#hidden_search_container').css('padding','0px');
         is_search_open=0;
     }
 });
