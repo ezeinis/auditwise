@@ -1,5 +1,9 @@
 @extends('auditwise_theme.layouts.default')
 
+@section('title')
+Auditwise - People
+@stop
+
 @section('content')
     <div class="about_container people_container">
         <h1 class="title">Our People</h1>

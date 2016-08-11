@@ -1,5 +1,9 @@
 @extends('auditwise_theme.layouts.default')
 
+@section('title')
+Auditwise - News
+@stop
+
 @section('content')
 <div id="news_container_page" class="about_container">
     @for($i=0;$i<7;$i++)

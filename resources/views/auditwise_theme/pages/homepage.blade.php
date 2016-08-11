@@ -1,5 +1,9 @@
 @extends('auditwise_theme.layouts.default')
 
+@section('title')
+Auditwise
+@stop
+
 @section('content')
 <!-- header banner start -->
     <!-- <div class="container"> -->

@@ -1,5 +1,9 @@
 @extends('auditwise_theme.layouts.default')
 
+@section('title')
+Auditwise - Accounting
+@stop
+
 @section('content')
     <div id="accounting_container" class="about_container">
         <h1 class="title">Accounting & Bookeeping</h1>

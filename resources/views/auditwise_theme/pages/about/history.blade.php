@@ -1,5 +1,10 @@
 @extends('auditwise_theme.layouts.default')
 
+@section('title')
+Auditwise - History
+@stop
+
+
 @section('content')
     <div class="about_container">
         <h1 class="title">Our History</h1>

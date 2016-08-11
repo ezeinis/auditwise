@@ -1,5 +1,9 @@
 @extends('auditwise_theme.layouts.default')
 
+@section('title')
+Auditwise - Tax
+@stop
+
 @section('content')
     <div id="tax_container" class="about_container">
         <h1 class="title">Personal & Corporate Taxation</h1>

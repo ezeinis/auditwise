@@ -1,5 +1,9 @@
 @extends('auditwise_theme.layouts.default')
 
+@section('title')
+Auditwise - Business Advisors
+@stop
+
 @section('content')
     <div id="business_advisors_container" class="about_container">
         <h1 class="title">Business Advisors</h1>

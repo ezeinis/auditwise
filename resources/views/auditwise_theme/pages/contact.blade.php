@@ -1,5 +1,9 @@
 @extends('auditwise_theme.layouts.default')
 
+@section('title')
+Auditwise - Contact Us
+@stop
+
 @section('content')
     <div id="google_maps_container">
         <iframe id="google_map" src="//www.google.com/maps/embed/v1/place?q=Auditwise,Nicosia,%20CY&zoom=16&key=AIzaSyB165ZXH0MizYqAzFNGqle5WwnfJ6WBx_g"></iframe>
