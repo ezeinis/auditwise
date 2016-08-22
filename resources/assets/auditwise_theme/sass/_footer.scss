@@ -3,7 +3,7 @@
     color:white;
     background:$main-color;
     padding-top:6em;
-    padding-bottom:0px;
+    padding-bottom:15px;
     @include devices_max($break-sm){
         padding-top:3em;
     }
@@ -18,7 +18,7 @@
                     margin:0;
                 }
                 #telephone{
-                    margin-top:20px;
+                    margin-top:5px;
                     @include devices_max($break-sm){
                         text-align: center;
                         margin-bottom: 3em;

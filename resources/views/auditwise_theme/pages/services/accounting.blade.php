@@ -5,7 +5,7 @@ Auditwise - Accounting
 @stop
 
 @section('content')
-    <div id="accounting_container" class="about_container">
+    <div id="accounting_container" class="about_container services_container">
         <h1 class="title">Accounting & Bookeeping</h1>
         <h5 class="small_title">Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</h5>
         <div class="about_text">

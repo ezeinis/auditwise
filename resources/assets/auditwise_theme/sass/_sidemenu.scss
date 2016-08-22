@@ -11,6 +11,7 @@
         width:319px!important;
     }
     &>ul{
+        padding-left:0px;
         &>a{
             &:hover{
                 text-decoration:none;
@@ -19,11 +20,12 @@
                 list-style-type:none;
                 width: 100%;
                 background-color: $sidemenu-color;
-                margin-top: 2px;
-                padding: 10px;
+                margin-top: 4px;
+                padding: 20px 20px 20px 40px;
                 text-align: center;
                 color: white;
                 font-weight: 900;
+                font-size:19px;
                 transition: all 0.15s ease-out 0s;
                 &:hover{
                     background:$main-color;
@@ -39,7 +41,7 @@
                     img.arrow_img{
                         position: absolute;
                         right: 0;
-                        top: 0;
+                        top: 6px;
                         height: 20px;
                         visibility: hidden;
                     }
@@ -93,7 +95,25 @@
 }
 
 .page_sidemenu_services{
-    left: 0px;
-    width:290px;
+    left: 15px;
+    width:310px;
+     &>ul{
+        &>a{
+            &>li{
+                padding-left:20px;
+            }
+        }
+    }
+}
+
+.page_sidemenu_news{
+    &>ul{
+        &>a{
+            &>li{
+                background-color:#525252;
+                padding: 20px 20px 20px 15px;
+            }
+        }
+    }
 }
 /* sidemenu end */

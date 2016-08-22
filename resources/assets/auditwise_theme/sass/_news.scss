@@ -72,23 +72,27 @@
         padding-top: 100px;
     }
     .single_new_container{
-        border-bottom: 1px solid black;
-        padding-bottom: 10px;
+        border-bottom: 1px solid #cdcdcd;
+        padding-bottom: 20px;
         margin-bottom: 40px;
         .signle_new_date{
             color: #709980;
             margin-bottom: 10px;
+            font-family:$text-font;
         }
         .row{
             .single_new_title{
                 margin: 0;
                 color: #6b6b6b;
+                font-weight:700;
             }
             .single_new_read_more_container{
                 text-align: right;
                 margin-top: 15px;
                 .single_new_read_more{
                     color: #a19181;
+                    font-weight:900;
+                    font-size:20px;
                 }
             }
         }
@@ -102,9 +106,12 @@
     }
     a{
        color:$main-color;
+       font-family:$header-font;
        font-weight: 900;
+       font-size:26px;
+       line-height:0;
        i{
-        font-size: 28px;
+        font-size: 50px;
        }
        &:hover{
         text-decoration:none;

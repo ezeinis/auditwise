@@ -1,6 +1,11 @@
 .lang{
-    font-weight: 900;
-    color:$secondary-home-color;
+    font-weight: 700;
+    color:#665b51;
+    margin:5px;
+    &:hover{
+        color:$main-home-color;
+        text-decoration:none;
+    }
 }
 
 .lang_active{

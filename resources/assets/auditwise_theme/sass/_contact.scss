@@ -16,8 +16,8 @@
         background: #a19181;
         text-align: center;
         color: white;
-        padding-top: 70px;
-        padding-bottom: 70px;
+        padding-top: 80px;
+        padding-bottom: 80px;
         h1{
             margin: 0;
         }
@@ -62,6 +62,7 @@
         }
         input{
             border-radius: 0;
+            height:60px;
         }
         .phone_input{
             margin: 0;
@@ -76,12 +77,21 @@
     }
     button{
         float: right;
-        margin-top: 15px;
+        margin-top: 25px;
         border-radius: 0;
         background: #80AF93;
         color: white;
         font-weight: 900;
-        padding:15px 30px 15px 30px;
+        padding:15px 85px 15px 85px;
+        font-size:20px;
+    }
+    .form-group{
+        margin-bottom:5px;
+    }
+    ::placeholder{
+        color:#525252;
+        font-family:$header-font;
+        font-size:18px;
     }
 }
 /* contact page end */

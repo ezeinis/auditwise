@@ -1,9 +1,9 @@
 html{
-    p,a,li,button{
+    p,a,li{
         font-family:$text-font;
         font-size:16px;
     }
-    h1,h2,h3,h4,h5{
+    h1,h2,h3,h4,h5,button{
         font-family:$header-font;
     }
 }
@@ -24,6 +24,8 @@ html{
 .section_title{
     color:$secondary-color;
     margin-top:2.5em;
+    margin-bottom:20px;
+    font-size:40px;
 }
 
 .right{

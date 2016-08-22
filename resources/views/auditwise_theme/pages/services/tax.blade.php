@@ -5,7 +5,7 @@ Auditwise - Tax
 @stop
 
 @section('content')
-    <div id="tax_container" class="about_container">
+    <div id="tax_container" class="about_container services_container">
         <h1 class="title">Personal & Corporate Taxation</h1>
         <h5 class="small_title">Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</h5>
         <div class="about_text">

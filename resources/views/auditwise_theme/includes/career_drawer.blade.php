@@ -1,6 +1,6 @@
 <div id="career_drawer">
     <h1>Join our team!</h1>
-    <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>
+    <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec.</p>
 <form action="/html/tags/html_form_tag_action.cfm" class="form-horizontal">
     <div class="form-group">
         <label for="name" class="control-label"></label>

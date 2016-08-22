@@ -52,7 +52,7 @@ Auditwise - History
             </a>
             <a href="">
                 <li>
-                    <div class="sidemenu_inner_li_container">Why Us
+                    <div class="sidemenu_inner_li_container">Why Us?
                         <img class="arrow_img" src="/images/icons/arrow.svg">
                         <i class="fa fa-bars" aria-hidden="true"></i>
                     </div>

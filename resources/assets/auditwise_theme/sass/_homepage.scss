@@ -20,7 +20,7 @@
         width:50%;
         left:100px;
         color:white;
-        font-size: 3em;
+        font-size: 4em;
         font-family: $header-font;
         line-height: 1em;
         @include devices($break-sm,$break-md){
@@ -42,21 +42,26 @@
         position: absolute;
         left:100px;
         right:100px;
+        bottom:-125px;
         .container_2{
             position:relative;
             &>.row{
                 margin:0;
                 @include flex_center;
+                background-color:$main-color;
                 .who_we_are_home_title{
                     text-align: center;
                 }
                 .who_we_are_home_text_container{
                     background:$secondary-color;
-                    height: 200px;
+                    height: 250px;
                     @include flex_center;
                     .who_we_are_home_inner_text_container{
-                        padding-right: 20px;
-                        padding-left: 20px;
+                        padding-right: 40px;
+                        padding-left: 40px;
+                        p{
+                            font-size:19px;
+                        }
                     }
                 }
             }
@@ -87,9 +92,9 @@
         padding: 30px 0 30px 0;
         h1{
             margin:0;
+            font-size:46px;
         }
         color:white;
-        font-size: 2em;
         @include devices_max($break-sm){
             font-size: 1.5em;
         }
@@ -99,8 +104,8 @@
         color:#525252;
     }
     .who_we_are_home_text{
-            color: white;
-        }
+        color: #ece9e6;
+    }
 }
 /* main_banner end */
 
@@ -115,7 +120,8 @@
         @include devices_min($break-md){
             padding:0 100px 0 100px;
         }
-        color: #adadad;
+        color: #6b6b6b;
+        font-size:18px;
     }
     .row{
         margin-right: -7px;
@@ -157,7 +163,8 @@
     }
     a{
         color:white;
-        font-size: 2.2em;
+        font-size: 2.6em;
+        line-height:110%;
         @include devices($break-sm,$break-md){
             font-size: 1.8em;
         }
@@ -207,6 +214,7 @@
             a{
                 color:#a19181;
                 float: right;
+                font-family:$header-font;
                 &:hover{
                     text-decoration:none;
                 }
@@ -226,7 +234,7 @@
         margin-top: 2em;
         .row{
             margin:0;
-            border-bottom: 1px solid #adadad;
+            border-bottom: 1px solid #c1c1c1;
             margin-top: 1em;
             a{
             color:#a19181;
@@ -240,6 +248,10 @@
                 font-weight:900;
                 color:#525252;
             }
+            .read_more_a{
+                font-weight:900;
+                font-family:$header-font;
+            }
         }
     }
     #go_to_news_page{
@@ -249,6 +261,8 @@
         a{
             font-weight: 900;
             color:$main-color;
+            font-size:20px;
+            font-family:$header-font;
         }
     }
 }
@@ -266,10 +280,6 @@
     h2{
         margin-bottom:1em;
     }
-    a{
-        color:$main-color;
-        font-weight: 900;
-    }
     #auditwise_clients{
         margin-bottom:2em;
         .homepage_clients{
@@ -279,6 +289,12 @@
         .col-xs-4,.col-sm-4{
             margin-top:1em;
         }
+    }
+    #more_clients{
+        font-weight: 900;
+        color:$main-color;
+        font-size:20px;
+        font-family:$header-font;
     }
 }
 /* home clients section end*/

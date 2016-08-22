@@ -9,7 +9,7 @@ Auditwise
     <!-- <div class="container"> -->
         <div id="homepage_main_banner_container">
             <img class="img-responsive" src="/images/homepage/main banner.jpg">
-            <span class="text_in_main_banner">Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</span>
+            <span class="text_in_main_banner">Pellentesque habitant morbi tristique senectus et netus.</span>
             <div id="who_we_are_container">
                 <div class="container_2">
                 <div class="row">
@@ -122,7 +122,7 @@ Auditwise
                     <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
                 </div>
                 <div class="col-lg-2">
-                    <a href="news/1">read more</a>
+                    <a class="read_more_a" href="news/1">read more</a>
                 </div>
             </div>
             <div class="row">
@@ -130,7 +130,7 @@ Auditwise
                     <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
                 </div>
                 <div class="col-lg-2">
-                    <a href="news/1">read more</a>
+                    <a class="read_more_a" href="news/1">read more</a>
                 </div>
             </div>
             <div class="row">
@@ -138,7 +138,7 @@ Auditwise
                     <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
                 </div>
                 <div class="col-lg-2">
-                    <a href="news/1">read more</a>
+                    <a class="read_more_a" href="news/1">read more</a>
                 </div>
             </div>
             <div class="row">
@@ -146,7 +146,7 @@ Auditwise
                     <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
                 </div>
                 <div class="col-lg-2">
-                    <a href="news/1">read more</a>
+                    <a class="read_more_a" href="news/1">read more</a>
                 </div>
             </div>
             <div class="row">
@@ -154,13 +154,13 @@ Auditwise
                     <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
                 </div>
                 <div class="col-lg-2">
-                    <a href="news/1">read more</a>
+                    <a class="read_more_a" href="news/1">read more</a>
                 </div>
             </div>
         </div>
         <div class="row">
             <div id="go_to_news_page" class="col-xs-12">
-                <a href="/news">go to our news page</a>
+                <a class="read_more_a" href="/news">go to our news page</a>
             </div>
         </div>
     </div>
@@ -201,7 +201,7 @@ Auditwise
                 </div>
             </div>
         </div>
-        <a href="">see all of our clients</a>
+        <a id="more_clients" href="">see all of our clients</a>
     </div>
 <!-- selected clients end -->
 
