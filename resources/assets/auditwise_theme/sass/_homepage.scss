@@ -24,12 +24,12 @@
         font-family: $header-font;
         line-height: 1em;
         @include devices($break-sm,$break-md){
-            font-size: 2.5em;
+            font-size: 3em;
             top:150px;
             left:20px;
         }
         @include devices_max($break-sm){
-            font-size: 2em;
+            font-size: 2.5em;
             top:50px;
             width:70%;
             left:20px;
@@ -85,6 +85,9 @@
             background:$secondary-color;
             text-align: left;
             padding:20px;
+        }
+        p{
+            font-size:20px;
         }
     }
     .who_we_are_home_title{
@@ -169,10 +172,10 @@
             font-size: 1.8em;
         }
         @include devices_max(610px){
-            font-size: 1.5em;
+            font-size: 1.8em;
         }
         @include devices_max(500px){
-            font-size: 2em;
+            font-size: 2.4em;
         }
         &:hover{
             opacity: 0.8;

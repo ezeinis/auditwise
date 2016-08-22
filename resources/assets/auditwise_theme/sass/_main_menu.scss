@@ -56,14 +56,16 @@
                     padding-top: 1em;
                     padding-bottom: 1em;
                     color:white;
-                    font-size:1.2em;
+                    font-size:1.4em;
+                    font-family:$header-font;
                     &:hover{
                         text-decoration:none;
                     }
                 }
                 p{
                     margin: 0;
-                    font-size:1.2em;
+                    font-size:1.4em;
+                    font-family:$header-font;
                 }
             }
             li.active{

@@ -6,12 +6,18 @@
         left:2px;
     }
     top: 200px;
+    @include devices_max($break-md){
+        top: 150px;
+    }
     width:265px;
     @include devices_max($break-md){
         width:319px!important;
     }
     &>ul{
         padding-left:0px;
+        @include devices_max($break-md){
+           padding-left:2em;
+        }
         &>a{
             &:hover{
                 text-decoration:none;
@@ -97,6 +103,9 @@
 .page_sidemenu_services{
     left: 15px;
     width:310px;
+    @include devices_max($break-md){
+        width:380px!important;
+    }
      &>ul{
         &>a{
             &>li{
